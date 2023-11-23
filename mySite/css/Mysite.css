@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Yatra+One&display=swap');
+
+  ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #aaaaaa37;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: rgb(209, 209, 209);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    }
+    nav a:hover{
+        background-color: rgba(230, 213, 213, 0.314)
+      }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #111;}
+  
+  ul.topnav li a.active {background-color: #04AA6D;}
+  
+  ul.topnav li.right {float: right;}
+  
+  @media screen and (max-width: 600px) {
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+  }
+
+
+#masthead{
+    
+     background-image:url(../images/cover.JPG);
+    
+    font-family: 'Yatra One', sans-serif;
+    color: rgb(33, 33, 33);
+    text-align: center;
+}
+
+#portfolio{
+    text-align: center;
+}
+
+#about{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    color: antiquewhite;
+    background-color: #504a3d;
+    width: 80vw;
+    
+    margin: 1% auto;
+    
+    padding: 10px;
+    opacity: 0.8;
+    
+}
+
+#body{
+    background-color: transparent;
+}
+
+#footer{
+    text-align: center;
+    font-family: 'Oswald' ,sans-serif;
+    color: rgb(93, 93, 93);
+    background-color: transparent;
+    
+}
