@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/MadLibs.Css">
+    <title>Madlibs by Jerin</title>
+</head>
+
+<body>
+    <header>
+        <h1>MadLibs Story Generator</h1>
+        <p3>by Jerin Joshy</p3>
+    </header>
+    <div class="container">
+        <h2>Nature's Blessing</h2>
+        <form id="MadLibsForm">
+            <!--dropdown menu to select seasons-->
+
+            
+            <label for="season">Sky Color:</label>
+            <input type="text" id="season" required>
+            <span class="hint">(Hint: Season on a the patricular time of the year)</span>
+            
+            <label for="color">Sky Color:</label>
+            <input type="text" id="color" required>
+            <span class="hint">(Hint: Color of the sky when climate change happens)</span>
+
+            <label for="weather">Weather:</label>
+            <input type="text" id="weather" required>
+            <span class="hint">(Hint: Sudden change in atmosphere)</span>
+
+            <label for="geography">Geography:</label>
+            <input type="text" id="geography" required>
+            <span class="hint">(Hint:the sudden change led to a change in the geography of the place)</span>
+
+            <label for="talent">Talent:</label>
+            <input type="text" id="talent" required>
+            <span class="hint">(Hint: A special talent)</span>
+
+            <label for="snack">Snack:</label>
+            <input type="text" id="snack" required>
+            <span class="hint">(Hint: Any snack)</span>
+
+            <label for="era">Snack:</label>
+            <input type="text" id="era" required>
+            <span class="hint">(Hint: A phase in life)</span>
+
+            <label for="feeling">Feeling:</label>
+            <input type="text" id="feeling" required>
+            <span class="hint">(Hint: A feeling or sensation)</span>
+
+            <button type="button" onclick="generateStory()">Generate Story</button>
+        </form>
+
+        <div id="storyOut" class="hidden">
+            <h2>Your MadLibs</h2>
+            <p id="generateStory">
+            </p>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+
+
+    <footer>
+        <p>JerinJoshy&copy;2023</p>
+    </footer>
+</body>
+
+</html>
